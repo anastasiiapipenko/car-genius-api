@@ -43,12 +43,12 @@ uvicorn main:app --host 127.0.0.1 --port 5050 --reload
 
 ```json
 {
-  "make": "Toyota",
-  "model": "Corolla",
-  "trim": "LE",
-  "body_type": "Sedan",
-  "drivetrain": "FWD",
-  "transmission": "Automatic",
+  "make": "toyota",
+  "model": "corolla",
+  "trim": "le",
+  "body_type": "sedan",
+  "drivetrain": "fwd",
+  "transmission": "automatic",
   "miles": 50000,
   "car_age": 5,
   "engine_size": 1.8
@@ -78,7 +78,7 @@ API_TUBE_KEY=your_api_key_here
 
 ## Getting an API Key
 
-To get an API key, register with APITube at [https://apitube.io/#sign-in](https://apitube.io/#sign-in). The API key will be automatically generated and available in the Dashboard.
+To get an API key, register with APITube at [https://apitube.io/#sign-up](https://apitube.io/#sign-up). The API key will be automatically generated and available in the Dashboard.
 
 ## Directory Structure
 
